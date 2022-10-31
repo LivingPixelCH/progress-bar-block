@@ -3,14 +3,14 @@
 	"apiVersion": 2,
 	"name": "livingpixel-blocks/progress-bar-block",
 	"version": "0.1.0",
-	"title": "Progress Bar Block",
+	"title": "LivingPixel - Progress Bar Block",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": " A block for the WordPress Gutenberg Editor to show an animated progress bar.",
 	"supports": {
 		"html": false
 	},
-	"textdomain": "progress-bar-block",
+	"textdomain": "livingpixel-progress-bar-block",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css"

@@ -1,7 +1,7 @@
 {
-	"name": "progress-bar-block",
+	"name": "livingpixel-progress-bar-block",
 	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "A block for the WordPress Gutenberg Editor to show an animated progress bar.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
@@ -16,8 +16,5 @@
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^24.4.0"
-	},
-	"dependencies": {
-		"progressbar.js": "^1.1.0"
 	}
 }
