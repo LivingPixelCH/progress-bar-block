@@ -5,15 +5,19 @@ import "./editor.scss";
 
 export default function Edit() {
 	const [value, setValue] = useState(0);
-	const [max, setMax] = useState(100);
-
 	const container = useRef(null);
 
-	useEffect(() => {
-		if (container.current) {
+	const id = setInterval(frame, 10);
+
+	function frame() {
+		if (value >= 100) {
+			clearInterval(id);
+			setValue(0);
+		} else {
+			setValue(value + 1);
 			container.current.style.width = `${value}%`;
 		}
-	}, [value]);
+	}
 
 	return (
 		<div
